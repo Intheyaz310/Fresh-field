@@ -1,0 +1,192 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#F5F5F5" />
+  
+  <!-- Pasture Background -->
+  <linearGradient id="grassGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#7FB069" />
+    <stop offset="100%" stop-color="#6B8E23" />
+  </linearGradient>
+  <rect x="50" y="200" width="700" height="350" fill="url(#grassGradient)" />
+  
+  <!-- Sky -->
+  <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#87CEEB" />
+    <stop offset="100%" stop-color="#B0E0E6" />
+  </linearGradient>
+  <rect x="50" y="50" width="700" height="150" fill="url(#skyGradient)" />
+  
+  <!-- Sun -->
+  <circle cx="150" cy="100" r="30" fill="#FFD700" />
+  
+  <!-- Clouds -->
+  <g fill="#FFFFFF">
+    <ellipse cx="300" cy="80" rx="40" ry="20" />
+    <ellipse cx="330" cy="90" rx="30" ry="15" />
+    <ellipse cx="270" cy="90" rx="25" ry="12" />
+    
+    <ellipse cx="500" cy="120" rx="50" ry="25" />
+    <ellipse cx="540" cy="130" rx="40" ry="20" />
+    <ellipse cx="460" cy="130" rx="35" ry="17" />
+  </g>
+  
+  <!-- Fence -->
+  <g stroke="#8B4513" stroke-width="3" fill="none">
+    <line x1="50" y1="250" x2="750" y2="250" />
+    <line x1="50" y1="270" x2="750" y2="270" />
+    <line x1="100" y1="230" x2="100" y2="290" />
+    <line x1="200" y1="230" x2="200" y2="290" />
+    <line x1="300" y1="230" x2="300" y2="290" />
+    <line x1="400" y1="230" x2="400" y2="290" />
+    <line x1="500" y1="230" x2="500" y2="290" />
+    <line x1="600" y1="230" x2="600" y2="290" />
+    <line x1="700" y1="230" x2="700" y2="290" />
+  </g>
+  
+  <!-- Grass Tufts -->
+  <g fill="#8FBC8F">
+    <path d="M100,400 Q110,380 120,400 Q130,370 140,400 Q150,380 160,400" />
+    <path d="M200,420 Q210,400 220,420 Q230,390 240,420 Q250,400 260,420" />
+    <path d="M300,410 Q310,390 320,410 Q330,380 340,410 Q350,390 360,410" />
+    <path d="M400,430 Q410,410 420,430 Q430,400 440,430 Q450,410 460,430" />
+    <path d="M500,415 Q510,395 520,415 Q530,385 540,415 Q550,395 560,415" />
+    <path d="M600,425 Q610,405 620,425 Q630,395 640,425 Q650,405 660,425" />
+    <path d="M700,405 Q710,385 720,405 Q730,375 740,405 Q750,385 760,405" />
+  </g>
+  
+  <!-- Organic Feed Pile -->
+  <g transform="translate(600, 450)">
+    <ellipse cx="0" cy="0" rx="80" ry="40" fill="#DAA520" />
+    <ellipse cx="0" cy="-10" rx="70" ry="30" fill="#B8860B" />
+    
+    <!-- Hay Strands -->
+    <g stroke="#F4A460" stroke-width="1">
+      <line x1="-60" y1="-5" x2="-40" y2="-15" />
+      <line x1="-50" y1="10" x2="-30" y2="0" />
+      <line x1="-30" y1="15" x2="-10" y2="5" />
+      <line x1="-10" y1="20" x2="10" y2="10" />
+      <line x1="10" y1="15" x2="30" y2="5" />
+      <line x1="30" y1="10" x2="50" y2="0" />
+      <line x1="40" y1="-5" x2="60" y2="-15" />
+    </g>
+    
+    <!-- Organic Label -->
+    <g transform="translate(0, -40)">
+      <ellipse cx="0" cy="0" rx="30" ry="20" fill="#FFFFFF" stroke="#006400" stroke-width="2" />
+      <text x="0" y="5" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#006400">ORGANIC</text>
+    </g>
+  </g>
+  
+  <!-- Grain Sack -->
+  <g transform="translate(450, 470)">
+    <path d="M-30,-40 L30,-40 L40,40 L-40,40 Z" fill="#F5DEB3" stroke="#8B4513" stroke-width="2" />
+    <path d="M-30,-40 C-10,-50 10,-50 30,-40" fill="none" stroke="#8B4513" stroke-width="2" />
+    <text x="0" y="10" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#8B4513">ORGANIC
+GRAIN</text>
+  </g>
+  
+  <!-- Cows Grazing -->
+  <g transform="translate(200, 350)">
+    <!-- Cow 1 -->
+    <g transform="translate(0, 0)">
+      <!-- Cow Body -->
+      <ellipse cx="0" cy="0" rx="60" ry="30" fill="#FFFFFF" stroke="#333333" stroke-width="2" />
+      
+      <!-- Cow Head (grazing position) -->
+      <ellipse cx="-50" cy="20" rx="25" ry="15" fill="#FFFFFF" stroke="#333333" stroke-width="2" />
+      
+      <!-- Cow Spots -->
+      <ellipse cx="-20" cy="-10" rx="15" ry="10" fill="#333333" />
+      <ellipse cx="20" cy="10" rx="20" ry="12" fill="#333333" />
+      
+      <!-- Cow Legs -->
+      <rect x="-40" y="30" width="10" height="40" fill="#FFFFFF" stroke="#333333" stroke-width="2" />
+      <rect x="-10" y="30" width="10" height="40" fill="#FFFFFF" stroke="#333333" stroke-width="2" />
+      <rect x="10" y="30" width="10" height="40" fill="#FFFFFF" stroke="#333333" stroke-width="2" />
+      <rect x="40" y="30" width="10" height="40" fill="#FFFFFF" stroke="#333333" stroke-width="2" />
+      
+      <!-- Cow Tail -->
+      <path d="M60,0 C80,0 70,-20 90,-30" fill="none" stroke="#333333" stroke-width="2" />
+    </g>
+    
+    <!-- Cow 2 (smaller, in background) -->
+    <g transform="translate(150, -30) scale(0.8)">
+      <!-- Cow Body -->
+      <ellipse cx="0" cy="0" rx="60" ry="30" fill="#FFFFFF" stroke="#333333" stroke-width="2" />
+      
+      <!-- Cow Head -->
+      <ellipse cx="-50" cy="0" rx="25" ry="15" fill="#FFFFFF" stroke="#333333" stroke-width="2" />
+      
+      <!-- Cow Spots -->
+      <ellipse cx="-20" cy="-10" rx="15" ry="10" fill="#333333" />
+      <ellipse cx="20" cy="10" rx="20" ry="12" fill="#333333" />
+      
+      <!-- Cow Legs -->
+      <rect x="-40" y="30" width="10" height="40" fill="#FFFFFF" stroke="#333333" stroke-width="2" />
+      <rect x="-10" y="30" width="10" height="40" fill="#FFFFFF" stroke="#333333" stroke-width="2" />
+      <rect x="10" y="30" width="10" height="40" fill="#FFFFFF" stroke="#333333" stroke-width="2" />
+      <rect x="40" y="30" width="10" height="40" fill="#FFFFFF" stroke="#333333" stroke-width="2" />
+      
+      <!-- Cow Tail -->
+      <path d="M60,0 C80,0 70,-20 90,-30" fill="none" stroke="#333333" stroke-width="2" />
+    </g>
+  </g>
+  
+  <!-- Farmer with Organic Feed -->
+  <g transform="translate(350, 400)">
+    <!-- Body -->
+    <rect x="-15" y="-60" width="30" height="80" fill="#3CB371" />
+    
+    <!-- Head -->
+    <circle cx="0" cy="-80" r="20" fill="#FFE4C4" />
+    
+    <!-- Hat -->
+    <path d="M-20,-90 L20,-90 L15,-100 L-15,-100 Z" fill="#8B4513" />
+    
+    <!-- Face -->
+    <circle cx="-7" cy="-85" r="3" fill="#000000" />
+    <circle cx="7" cy="-85" r="3" fill="#000000" />
+    <path d="M-5,-75 C-3,-72 3,-72 5,-75" fill="none" stroke="#000000" stroke-width="1" />
+    
+    <!-- Arms -->
+    <rect x="-15" y="-60" width="-30" height="10" fill="#3CB371" />
+    <rect x="15" y="-60" width="30" height="10" fill="#3CB371" />
+    
+    <!-- Hands -->
+    <circle cx="-45" cy="-60" r="5" fill="#FFE4C4" />
+    <circle cx="45" cy="-60" r="5" fill="#FFE4C4" />
+    
+    <!-- Legs -->
+    <rect x="-15" y="20" width="10" height="50" fill="#4682B4" />
+    <rect x="5" y="20" width="10" height="50" fill="#4682B4" />
+    
+    <!-- Feet -->
+    <ellipse cx="-10" cy="70" rx="10" ry="5" fill="#8B4513" />
+    <ellipse cx="10" cy="70" rx="10" ry="5" fill="#8B4513" />
+    
+    <!-- Feed Bucket -->
+    <path d="M-60,-70 L-30,-70 L-25,-40 L-65,-40 Z" fill="#CD853F" stroke="#8B4513" stroke-width="2" />
+    <path d="M-60,-70 C-50,-80 -40,-80 -30,-70" fill="none" stroke="#8B4513" stroke-width="2" />
+    <path d="M-45,-40 L-45,-20" fill="none" stroke="#8B4513" stroke-width="2" />
+    
+    <!-- Feed in Bucket -->
+    <ellipse cx="-45" cy="-55" rx="15" ry="7" fill="#DAA520" />
+    <g stroke="#F4A460" stroke-width="1">
+      <line x1="-55" y1="-55" x2="-50" y2="-60" />
+      <line x1="-50" y1="-55" x2="-45" y2="-60" />
+      <line x1="-45" y1="-55" x2="-40" y2="-60" />
+      <line x1="-40" y1="-55" x2="-35" y2="-60" />
+    </g>
+  </g>
+  
+  <!-- Organic Certification Symbol -->
+  <g transform="translate(100, 100)">
+    <circle cx="0" cy="0" r="40" fill="#FFFFFF" stroke="#006400" stroke-width="3" />
+    <text x="0" y="-10" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#006400">CERTIFIED</text>
+    <text x="0" y="10" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#006400">ORGANIC</text>
+    <circle cx="0" cy="0" r="30" fill="none" stroke="#006400" stroke-width="1" />
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="30" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#006400">Organic Feeding Program</text>
+</svg>

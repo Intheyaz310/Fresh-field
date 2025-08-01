@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- Background with green pasture -->
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0F7FA;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grassGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#7FB069;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5D8C4F;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky -->
+  <rect width="800" height="300" fill="url(#skyGradient)" />
+  
+  <!-- Sun -->
+  <circle cx="700" cy="100" r="60" fill="#FFEB3B" />
+  <circle cx="700" cy="100" r="50" fill="#FFF176" />
+  
+  <!-- Distant hills -->
+  <path d="M0,300 Q200,200 400,250 T800,280 V300 H0 Z" fill="#8BC34A" opacity="0.7" />
+  
+  <!-- Grass field -->
+  <rect x="0" y="300" width="800" height="300" fill="url(#grassGradient)" />
+  
+  <!-- Flowers in the field -->
+  <g>
+    <!-- Flower 1 -->
+    <circle cx="150" cy="350" r="5" fill="#FFEB3B" />
+    <circle cx="150" cy="350" r="2" fill="#FFA000" />
+    
+    <!-- Flower 2 -->
+    <circle cx="250" cy="380" r="5" fill="#E91E63" />
+    <circle cx="250" cy="380" r="2" fill="#FFA000" />
+    
+    <!-- Flower 3 -->
+    <circle cx="350" cy="360" r="5" fill="#FFEB3B" />
+    <circle cx="350" cy="360" r="2" fill="#FFA000" />
+    
+    <!-- Flower 4 -->
+    <circle cx="450" cy="390" r="5" fill="#E91E63" />
+    <circle cx="450" cy="390" r="2" fill="#FFA000" />
+    
+    <!-- Flower 5 -->
+    <circle cx="550" cy="370" r="5" fill="#FFEB3B" />
+    <circle cx="550" cy="370" r="2" fill="#FFA000" />
+    
+    <!-- Flower 6 -->
+    <circle cx="650" cy="385" r="5" fill="#E91E63" />
+    <circle cx="650" cy="385" r="2" fill="#FFA000" />
+  </g>
+  
+  <!-- Happy cow -->
+  <g transform="translate(400, 450) scale(1.2)">
+    <!-- Cow body -->
+    <ellipse cx="0" cy="0" rx="80" ry="50" fill="#FFFFFF" stroke="#333333" stroke-width="2" />
+    
+    <!-- Cow spots -->
+    <ellipse cx="-40" cy="-10" rx="20" ry="15" fill="#333333" />
+    <ellipse cx="20" cy="15" rx="25" ry="20" fill="#333333" />
+    <ellipse cx="-10" cy="-25" rx="15" ry="10" fill="#333333" />
+    
+    <!-- Cow head -->
+    <ellipse cx="-90" cy="-20" rx="30" ry="25" fill="#FFFFFF" stroke="#333333" stroke-width="2" />
+    
+    <!-- Cow ears -->
+    <path d="M-110,-35 L-125,-50 L-105,-45 Z" fill="#FFFFFF" stroke="#333333" stroke-width="2" />
+    <path d="M-70,-35 L-55,-50 L-75,-45 Z" fill="#FFFFFF" stroke="#333333" stroke-width="2" />
+    
+    <!-- Cow eyes -->
+    <circle cx="-100" cy="-25" r="5" fill="#333333" />
+    <circle cx="-80" cy="-25" r="5" fill="#333333" />
+    <circle cx="-100" cy="-25" r="1" fill="#FFFFFF" />
+    <circle cx="-80" cy="-25" r="1" fill="#FFFFFF" />
+    
+    <!-- Cow nose -->
+    <ellipse cx="-105" cy="-10" rx="10" ry="7" fill="#FFC0CB" />
+    <circle cx="-110" cy="-10" r="2" fill="#333333" />
+    <circle cx="-100" cy="-10" r="2" fill="#333333" />
+    
+    <!-- Cow mouth (smiling) -->
+    <path d="M-115,-5 Q-105,5 -95,-5" fill="none" stroke="#333333" stroke-width="2" />
+    
+    <!-- Cow legs -->
+    <rect x="-60" y="45" width="10" height="40" fill="#FFFFFF" stroke="#333333" stroke-width="2" />
+    <rect x="-30" y="45" width="10" height="40" fill="#FFFFFF" stroke="#333333" stroke-width="2" />
+    <rect x="20" y="45" width="10" height="40" fill="#FFFFFF" stroke="#333333" stroke-width="2" />
+    <rect x="50" y="45" width="10" height="40" fill="#FFFFFF" stroke="#333333" stroke-width="2" />
+    
+    <!-- Cow tail -->
+    <path d="M80,0 Q100,20 110,-20" fill="none" stroke="#333333" stroke-width="2" />
+    <path d="M110,-20 Q115,-25 120,-15" fill="none" stroke="#333333" stroke-width="2" />
+  </g>
+  
+  <!-- Grass tufts -->
+  <g>
+    <path d="M100,500 Q110,480 120,500" stroke="#5D8C4F" stroke-width="2" fill="none" />
+    <path d="M105,500 Q115,470 125,500" stroke="#5D8C4F" stroke-width="2" fill="none" />
+    <path d="M110,500 Q120,485 130,500" stroke="#5D8C4F" stroke-width="2" fill="none" />
+    
+    <path d="M200,500 Q210,480 220,500" stroke="#5D8C4F" stroke-width="2" fill="none" />
+    <path d="M205,500 Q215,470 225,500" stroke="#5D8C4F" stroke-width="2" fill="none" />
+    <path d="M210,500 Q220,485 230,500" stroke="#5D8C4F" stroke-width="2" fill="none" />
+    
+    <path d="M600,500 Q610,480 620,500" stroke="#5D8C4F" stroke-width="2" fill="none" />
+    <path d="M605,500 Q615,470 625,500" stroke="#5D8C4F" stroke-width="2" fill="none" />
+    <path d="M610,500 Q620,485 630,500" stroke="#5D8C4F" stroke-width="2" fill="none" />
+    
+    <path d="M700,500 Q710,480 720,500" stroke="#5D8C4F" stroke-width="2" fill="none" />
+    <path d="M705,500 Q715,470 725,500" stroke="#5D8C4F" stroke-width="2" fill="none" />
+    <path d="M710,500 Q720,485 730,500" stroke="#5D8C4F" stroke-width="2" fill="none" />
+  </g>
+  
+  <!-- Butterflies -->
+  <g transform="translate(150, 200) scale(0.5)">
+    <path d="M0,0 Q10,-10 20,0 Q10,10 0,0" fill="#FFEB3B" />
+    <path d="M20,0 Q30,-10 40,0 Q30,10 20,0" fill="#FFEB3B" />
+    <line x1="20" y1="0" x2="20" y2="10" stroke="#333333" stroke-width="1" />
+  </g>
+  
+  <g transform="translate(550, 250) scale(0.5)">
+    <path d="M0,0 Q10,-10 20,0 Q10,10 0,0" fill="#E91E63" />
+    <path d="M20,0 Q30,-10 40,0 Q30,10 20,0" fill="#E91E63" />
+    <line x1="20" y1="0" x2="20" y2="10" stroke="#333333" stroke-width="1" />
+  </g>
+  
+  <!-- Clouds -->
+  <g fill="#FFFFFF" opacity="0.8">
+    <ellipse cx="150" cy="100" rx="50" ry="30" />
+    <ellipse cx="180" cy="90" rx="40" ry="25" />
+    <ellipse cx="120" cy="90" rx="40" ry="25" />
+    
+    <ellipse cx="450" cy="70" rx="60" ry="35" />
+    <ellipse cx="480" cy="60" rx="50" ry="30" />
+    <ellipse cx="420" cy="60" rx="50" ry="30" />
+  </g>
+</svg>
